@@ -1,0 +1,267 @@
+/*
+-------------------------------------------------
+
+-------------------------------------------------
+
+*/
+/*resetting defaults */
+body,h1,h2,h3,h4,h5,div,p,li,ul,ol,{
+margin:0 auto;
+padding:0;
+}
+#body{
+	background-image:white;
+	}
+
+
+
+/*
+-------------------------------------------------
+  bodywrapper
+-------------------------------------------------
+
+*/
+#bodywrapper{
+background-color: #eee;
+width:100%
+}
+
+/*
+-------------------------------------------------
+header
+-------------------------------------------------
+
+*/
+
+#header{
+background-color: #348017;
+width:100%
+text-align:left;
+
+}
+#headline{
+background-color: #000;
+height:1px;
+
+}
+#headlinks{
+background-color: #348017;
+width:100%
+}
+
+#headnav{
+width:1100px;
+background-color:  #348017;
+height:40px;
+margin:0 auto;
+padding-top:3px;
+padding-bottom:10px;
+
+}
+#headnav ul {
+list-style-type:none;
+}
+
+#headnav ul  li{
+float: left; 
+}
+
+#headnav ul li a{
+display:blocks;
+height:20px;
+line-height:20px;
+width:80px;
+background: #348017;
+padding:10px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+color:#fff;
+text-decoration:none;
+margin:7px;
+border-radius:10px;
+
+
+
+
+}
+
+#headnav ul li a:hover{
+
+color:#f00;
+transition:1s; transition-delay:0.05s;
+
+}
+
+#headnav ul li a.current, #headnav ul li a.current:hover{
+
+cursor:default;
+}
+
+/*
+-------------------------------------------------
+ABOUT  AND  CONTACTS
+-------------------------------------------------
+
+*/
+ul  li ul.about {
+padding:20px;
+border-radius:8px;
+background:skyblue;
+position:absolute;
+display:none;
+z-index:999;
+left:750;
+height:200px;
+}
+ul li:hover ul.about{
+display:block;
+color:#00f;
+transition:1s; transition-delay:0.05s;
+}
+ul li ul.about li{display:block;
+}
+
+ul  li ul.contacts {
+border-radius:8px;
+padding:20px;
+background:skyblue;
+position:absolute;
+display:none;
+z-index:999;
+left:1000;
+height:200px;
+}
+ul li:hover ul.contacts{
+display:block;
+color:#00f;
+transition:1s; transition-delay:0.05s;
+}
+ul li ul.contacts li{display:block;
+}
+
+
+/*
+-------------------------------------------------
+STUDENTS LOGIN/REGISTER
+-------------------------------------------------
+
+*/
+
+#studentlogtable{
+width:1500px;
+text-align:center;
+background-color: #348017;
+
+}
+
+#studentregform, #studentlogform{
+
+text-align:center;
+font-size:20px;
+background-color: #348017;
+float: center;
+width:300px;
+padding:10px;
+border-radius:10px;
+border:2px dotted #00f;
+}
+
+#studentlogform{
+float:right;
+
+}
+
+
+
+
+/*
+-------------------------------------------------
+STUDENTS HOME PAGE
+-------------------------------------------------
+
+*/
+
+
+#studenthometable{
+width:100%;
+text-align:center;
+
+}
+
+
+
+
+
+
+/*
+-------------------------------------------------
+PROJECTS PAGE
+-------------------------------------------------
+
+*/
+
+#projectstable{
+width:100%;
+text-align:center;
+
+}
+
+#quicklinks ,#social{
+text-align:center;
+font-size:17px;
+background-color: #348017;
+padding:10px;
+border-radius:10px;
+border:2px dotted #00f;
+
+}
+
+#projectregestration{
+text-align:left;
+font-size:20px;
+background-color: #348017;
+width:400px;
+padding:10px;
+border-radius:10px;
+border:2px dotted #00f;
+margin-left:200px;
+
+}
+#projectupdate{
+text-align:left;
+font-size:20px;
+background-color: #348017;
+width:300px;
+padding:10px;
+border-radius:10px;
+border:2px dotted #00f;
+
+}
+
+
+
+/*
+-------------------------------------------------
+LECTURER HOME
+-------------------------------------------------
+
+*/
+
+#studentselect{
+margin-left:150px;
+text-align:center;
+background-color: #348017;
+width:500px;
+padding:10px;
+border-radius:10px;
+border:2px dotted #00f;
+}
+
+
+
+
+
+
+
+
